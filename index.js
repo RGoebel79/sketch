@@ -12,7 +12,7 @@
      $(".column").mouseenter(function() {
       var op = $(this).css("opacity");
       op -= .4;
-      $(this).fadeTo(150, 0);
+      $(this).fadeTo(125, op);
      });
    }
 
