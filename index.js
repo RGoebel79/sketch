@@ -10,8 +10,9 @@
 
    function done() {
      $(".column").mouseenter(function() {
-
-       $(this).fadeTo(150, 0);
+      var op = $(this).css("opacity");
+      op -= .4;
+      $(this).fadeTo(150, 0);
      });
    }
 
